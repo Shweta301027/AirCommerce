@@ -193,7 +193,6 @@ box-shadow: 0.5px 0.5px 0;
 }
 .detail .show-all{
     color: pink;
-    margin-top: ;
 }
 /*MEDIA QUERY FOR MOBILE PHONES*/
 @media only screen and (max-width: 480px) {
