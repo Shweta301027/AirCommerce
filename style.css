@@ -131,7 +131,7 @@ padding: 5px;
     background-size: cover;
     background-position: center;
     border-radius: 1%;
-    margin: 1% 7%;
+    margin: 1% 6%;
 }
 .banner1 .text{
     padding: 5% 10%;
@@ -193,6 +193,112 @@ box-shadow: 0.5px 0.5px 0;
 }
 .detail .show-all{
     color: pink;
+
+}
+/*Aside box*/
+.aside{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 1% 6%;
+}
+/*First-aside contaiiner*/
+.first-aside{
+    border: 2px solid lightgray;
+    border-radius:1%;
+    padding:10px;
+    width: 15vw;
+    height: 50vh;
+}
+.first-aside img{
+    width: 1.5vw;
+    border: 1px solid lightgray;
+    padding: 2.5px;
+    background-color: lightgray;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.first-aside div{
+    font-size: 08.rem;
+}
+.aside img:hover{
+    box-shadow: 1px 1px 4px 0
+}
+.first-aside div:hover{
+    color: blueviolet;
+}
+.sub-category{
+display: flex;
+align-items: bas;
+justify-content: space-between;
+}
+/*Scond-aside container*/
+.second-aside{
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.best-seller-product{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.best-seller-product img{
+    width: 2.5vw;
+    /* border: 1px solid lightgray; */
+    background-color: lightgray;
+    padding: 3px;
+    margin-right: 5px;
+}
+.best-seller-product i{
+    color: goldenrod;
+}
+.best-price span{
+    text-decoration: line-through;
+    margin-right:5px ;
+}
+/*For Making Aside Left Container Sticky*/
+.sticky-container{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+/*Right Aside Container*/
+.right-aside-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    margin-left: 5%;
+}
+.right-aside-container h4{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.item1{
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.item1 img{
+    width: 25%;
+    align-items: center;
+}
+.item1 .cloth{
+    font-size: 0.8rem;
+    color: gray;
+}
+.item1 .pink{
+    margin-right: 5px;
+    color : rgb(245, 130, 149);
+    font-weight: bold;
+}
+.item1 .line-through{
+    text-decoration: line-through;
 }
 /*MEDIA QUERY FOR MOBILE PHONES*/
 @media only screen and (max-width: 480px) {
