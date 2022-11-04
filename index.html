@@ -16,7 +16,7 @@
 <body>
     <!--first Header Starts Here-->
     <header>
-        <div class="header1">
+        <div class="header1 container flex">
             <div class="links">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <!--Header2 Starts Here-->
-        <div class="header2">
+        <div class="header2 container flex">
             <div class="logo">AirCommerce</div>
             <div class="search">
                 <input type="search" name="" id="" placeholder="Enter your product name...">
@@ -48,9 +48,8 @@
             <div class="cart">
                 <i class="fa-regular fa-user"></i>
                 <i class="fa-regular fa-heart"></i>
-                <p>o</p>
                 <i class="fa fa-shopping-bag"></i>
-                <p class="p2">o</p>
+                
             </div>
         </div>
         <!--TAB BAR FOR MOBILE AND TABLET VIEW-->
@@ -64,10 +63,10 @@
         </div>
 
     </header>
-    <!--Main Started-->
+    <!----------------------------------------------Main Started----------------------------------------------------------------------------->
     <main>
-        <!--List Of Products Starts from Here-->
-        <div class="list-of-products">
+        <!---------------------------------------------------------List Of Products Starts from Here----------------------------------------------->
+        <section class="list-of-products container flex">
             <p>HOME</p>
             <p>CATEGORIES</p>
             <p>MEN'S</p>
@@ -76,10 +75,10 @@
             <p>PERFUME</p>
             <p>BLOG</p>
             <p>HOT OFFERS</p>
-        </div>
-        <!--List Of Products Ends from Here-->
+        </section>
+        <!------------------------------------------------------------List Of Products Ends Here------------------------------------------------>
 
-        <!--Banner1 Starts Here-->
+        <!----------------------------------------------------Banner1 Starts Here---------------------------------------------------------------->
         <div class="banner1">
             <!-- <img src="./images/banner-1.jpg" alt="Banner1"> -->
             <div class="text">
@@ -90,8 +89,8 @@
                 <button>SHOP NOW</button>
             </div>
         </div>
-        <!--Categories Box-->
-        <div class="options">
+        <!------------------------------------------------------------Categories Box------------------------------------------------------------>
+        <section class="options flex">
             <div class="box">
                 <img src="./images/dress.svg" alt="Frock & Dress">
                 <div class="detail">
@@ -102,7 +101,7 @@
             <div class="box">
                 <img src="./images/coat.svg" alt="WINTER WEAR">
                 <div class="detail">
-                    <p>WINTER WEAR <span class="count">(58)</span></p>
+                    <p>WINTER WEAR..<span class="count">(58)</span></p>
                     <p><span class="show-all">SHOW ALL</span></p>
                 </div>
             </div>
@@ -120,218 +119,537 @@
                     <p><span class="show-all">SHOW ALL</span></p>
                 </div>
             </div>
+        </section>
+        <!----------------------------------------------------------Big-Container Box Starts Here--------------------------------------------------->
+        
+        <section class="big-container flex container">
+            <div class="sticky-container">
+                <div class="first-aside boxes">
+                    <h4>Category</h4>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/dress.svg" alt="Clothes">
+                            <p>Clothes</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category flex">
+                        <div class="flex sub_cat"><img src="./images/shoes.svg" alt="Footwear">
+                            <p>Footwear</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/jewelry.svg" alt="Jewelery">
+                            <p>Jewellery</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/perfume.svg" alt="Perfume">
+                            <p>Perfume</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/cosmetics.svg" alt="Cosmetics">
+                            <p>Cosmetics</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/glasses.svg" alt="GLASSES">
+                            <p>GLASSES</p></div>
+                        <div>+</div>
+                    </div>
+                    <div class="sub-category">
+                        <div class="flex sub_cat"><img src="./images/bag.svg" alt="bag">
+                            <p>Bag</p></div>
+                        <div>+</div>
+                    </div>
+
+                </div>
+                <div class="second-aside boxes">
+                    <h4>BEST SELLERS</h4>
+                    <div class="best-seller-product">
+                        <div><img src="./images/1.jpg" alt="shoes"></div>
+                        <div class="best-seller-product-description">
+                            <h6>Baby Fabric Shoes</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                            <div class="best-price">
+                                <p><span>$4.00</span><b>$5.00 </b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-seller-product">
+                        <div><img src="./images/jacket-6.jpg" alt="Men's Hoodies T-Shirt"></div>
+                        <div class="best-seller-product-description">
+                            <h6>Men's Hoodies T-Shirt</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                            <div class="best-price">
+                                <p><span>$17.00</span><b>$7.00 </b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-seller-product">
+                        <div><img src="./images/clothes-2.jpg" alt="Girls Tshirt"></div>
+                        <div class="best-seller-product-description">
+                            <h6>Girls T-Shirt</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                            <div class="best-price">
+                                <p><span>$3.00</span><b>$3.00 </b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best-seller-product">
+                        <div class="best_pro_img"><img src="./images/4.jpg" alt="hat"></div>
+                        <div class="best-seller-product-description">
+                            <h6>Woolen Hat For Men</h6>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                            <div class="best-price">
+                                <p><span>$15.00</span><b>$12.00 </b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="big-right">
+                <div class="right-aside-container flex container">
+                    <div class="right-aside">
+                        <h4>New Arrivals</h4>
+                        <div class="item1">
+                            <img src="./images/clothes-1.jpg">
+                            <div>
+                                <h5>Relaxed Short Full Slee...</h5>
+                                <p><span class="cloth">Clothes</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/clothes-2.jpg">
+                            <div>
+                                <h5>Girls Pink Embro...</h5>
+                                <p><span class="cloth">Clothes</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/clothes-4.jpg">
+                            <div>
+                                <h5>Black Florak Wraps Midi...</h5>
+                                <p><span class="cloth">Clothes</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/shirt-1.jpg">
+                            <div>
+                                <h5>Pure Garment Dyed C...</h5>
+                                <p><span class="cloth">Mens Fashion</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right-aside">
+                        <h4>Trending</h4>
+                        <div class="item1">
+                            <img src="./images/sports-1.jpg">
+                            <div>
+                                <h5>Running & Trekking Sh...</h5>
+                                <p><span class="cloth">Sports</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/sports-2.jpg">
+                            <div>
+                                <h5>Trekking & Running Sh...</h5>
+                                <p><span class="cloth">Sports</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/party-wear-1.jpg">
+                            <div>
+                                <h5>Women Party Wear...</h5>
+                                <p><span class="cloth">Party Wear</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/sports-3.jpg">
+                            <div>
+                                <h5>Sports Women...</h5>
+                                <p><span class="cloth">Sports</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="right-aside">
+                        <h4>Top</h4>
+                        <div class="item1">
+                            <img src="./images/watch-3.jpg">
+                            <div>
+                                <h5>Pocket Watch Leather...</h5>
+                                <p><span class="cloth">Watches</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/jewellery-3.jpg">
+                            <div>
+                                <h5>Silver Deer Heart Neck...</h5>
+                                <p><span class="cloth">Jewellery</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/perfume.jpg">
+                            <div>
+                                <h5>Titan 100ML womens...</h5>
+                                <p><span class="cloth">Perfume</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+                        <div class="item1">
+                            <img src="./images/belt.jpg">
+                            <div>
+                                <h5>Mens's Leather Reversi...</h5>
+                                <p><span class="cloth">Belt</span></p>
+                                <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="deal">
+                    <h4>Deal of The Day</h4>
+                </div>
+                <section class="oldspice">
+                    <div><img src="./images/shampoo.jpg"></div>
+                    <div class="star">
+                        <span class="golden"><i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i></span>
+                        <span><i class="white-star"><i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i></span>
+                        <p>
+                        <h3>SHAMPOO, CONDITIONER & FACEWASH PACK </h3>
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae tenetur ad alias
+                            accusamus.</p>
+                        <p><span class="small">$150.00</span><span class="line-through">$200.00</span></p>
+                        <button>ADD TO CART</button>
+                        <div class="sold">
+                            <p>ALREADY SOLD:<b>20</b></p>
+                            <p>AVAILABLE: <b>40</b></p>
+                        </div>
+                        <div class="pink-line"></div>
+                        <p><b>HURRY UP! OFFER ENDS IN:</b></p>
+                        <div class="time">
+                            <div class="days">360
+                                <p>DAYS</p>
+                            </div>
+                            <div class="hours">24
+                                <p>HOURS</p>
+                            </div>
+                            <div class="min">59
+                                <p>MIN</p>
+                            </div>
+                            <div class="sec">00
+                                <p>SEC</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="new-products">New Products</div>
+                <div class="new_pro_list">
+                    <div class="new_pro_list1">
+                        <img
+                            src="./images/jacket-3.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img
+                            src="images/shirt-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img
+                            src="./images/jacket-5.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+                    <div class="new_pro_list1"><img src="./images/shoe-2.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+                    <div class="new_pro_list1"><img
+                            src="./images/watch-3.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+                    <div class="new_pro_list1"><img src="./images/watch-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img src="./images/party-wear-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img src="./images/jacket-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+                    <div class="new_pro_list1"><img src="./images/sports-2.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img src="./images/shoe-1_1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+                    <div class="new_pro_list1"> <img src="./images/shorts-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+                    <div class="new_pro_list1"><img src="./images/jacket-1.jpg">
+                        <p class="jack">JACKET</p>
+                        <p><b>Men's Winter Leather Jacket</b></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <p>$45.00 <span class="line-through">$12.00</span></p>
+                    </div>
+
+
+
+                </div>
+            </section>
+        </section>
+
+        <div class="collection container">
+            <div class="testimonial">
+                <h4>TESTIMONIALS</h4>
+                <div class="alan">
+                    <img src="./images/joe.jpg" width="80px" height="80px">
+                    <h5>ALAN JOE</h5>
+                    <div><p>CEO & Founder</p>
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+                </div>
+            </div>
+            <div class="banner2">
+                <div class="discount">
+                    <button>25% DISCOUNT</button>
+                    <h2>Summer</h2>
+                    <h2>Collection</h2>
+                    <p>Starting @ $10</p>
+                    <h6>SHOP NOW</h6>
+                </div>
+            </div>
+            <div class="service">
+                <h4>Our Service
+                </h4>
+                <div class="delivery">
+                    <i class="fa fa-ship" aria-hidden="true"></i>
+                    <h5>Worldwide Delivery</h5>
+                    <p>For orders over $100</p>
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <h5>Next day Delivery</h5>
+                    <p>UK Orders Only</p>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <h5>Best Online Support</h5>
+                    <p>Hours: 8am-11pm</p>
+                    <i class="fa fa-ship" aria-hidden="true"></i>
+                    <h5>Worldwide Delivery</h5>
+                    <p>For orders over $100</p>
+
+                </div>
+            </div>
         </div>
-        <!--Aside Box Starts Here-->
-        <main>
-            <div class="aside">
-                <div class="sticky-container">
-                    <div class="first-aside">
-                        <h4>Category</h4>
-                        <div class="sub-category">
-                            <div><img src="./images/dress.svg" alt="Clothes">Clothes</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/shoes.svg" alt="Footwear">Footwear</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/jewelry.svg" alt="Jewelery">Jewellery</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/perfume.svg" alt="Perfume">Perfume</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/cosmetics.svg" alt="Cosmetics">Cosmetics</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/glasses.svg" alt="GLASSES">GLASSES</div>
-                            <div>+</div>
-                        </div>
-                        <div class="sub-category">
-                            <div><img src="./images/bag.svg" alt="bag">Bag</div>
-                            <div>+</div>
-                        </div>
+        <section class="blog container flex">
 
-                    </div>
-                    <div class="second-aside">
-                        <h4>BEST SELLERS</h4>
-                        <div class="best-seller-product">
-                            <div><img src="./images/1.jpg" alt="shoes"></div>
-                            <div class="best-seller-product-description">
-                                <h6>Baby Fabric Shoes</h6>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-                                <div class="best-price">
-                                    <p><span>$4.00</span><b>$5.00 </b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="best-seller-product">
-                            <div><img src="./images/jacket-5.jpg" alt="Men's Hoodies T-Shirt"></div>
-                            <div class="best-seller-product-description">
-                                <h6>Men's Hoodies T-Shirt</h6>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-                                <div class="best-price">
-                                    <p><span>$17.00</span><b>$7.00 </b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="best-seller-product">
-                            <div><img src="./images/tee.svg" alt="Girls Tshirt"></div>
-                            <div class="best-seller-product-description">
-                                <h6>Girls T-Shirt</h6>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-                                <div class="best-price">
-                                    <p><span>$3.00</span><b>$3.00 </b></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="best-seller-product">
-                            <div><img src="./images/hat.svg" alt="hat"></div>
-                            <div class="best-seller-product-description">
-                                <h6>Woolen Hat For Men</h6>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-                                <div class="best-price">
-                                    <p><span>$15.00</span><b>$12.00 </b></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-aside-container">
-                <div class="right-aside">
-                    <h4>New Arrivals</h4>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p>Clothes</p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
+            <div class="blog1">
+                <img src="./images/blog-1.jpg">
+                <p> <span class="small">FASHION</span></p>
+                <p><b>Clothes Retail KPIs 2021 Guide for clothes executive.</b></p>
+                <p>By Mr Admin</p>
+            </div>
+            <div class="blog1">
+                <img src="./images/blog-2.jpg">
+                <p><span class="small">FASHION</span></p>
+                <p><b>Clothes Retail KPIs 2021 Guide for clothes executive.</b></p>
+                <p>By Mr Admin</p>
+            </div>
+            <div class="blog1">
+                <img src="./images/blog-1.jpg">
+                <p><span class="small">FASHION</span></p>
+                <p><b>Clothes Retail KPIs 2021 Guide for clothes executive.</b></p>
+                <p>By Mr Admin</p>
+            </div>
+            <div class="blog1">
+                <img src="./images/blog-4.jpg">
+                <p><span class="small">FASHION</span></p>
+                <p><b>Clothes Retail KPIs 2021 Guide for clothes executive.</b></p>
+                <p>By Mr Admin</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="foot1">
+                <p><span class="  small">BRAND DIRECTORY</span></p>
+                <p><b>FASHION: </b> T-shirt l Shirts & Shorts l Jacket l nnerwear l Frock Dress
+                </p>
+                <p><b>FASHION: </b> T-shirt l Shirts & Shorts l Jacket l nnerwear l Frock Dress
+                </p>
+                <p><b>FOOTWEAR: </b> T-shirt l Shirts & Shorts l Jacket l nnerwear l Frock Dress
+                </p>
+                <p><b>JEWELLERY: </b> T-shirt l Shirts & Shorts l Jacket l nnerwear l Frock Dress
+                </p>
+                <p><b>COSMETICS: </b> T-shirt l Shirts & Shorts l Jacket l nnerwear l Frock Dress
+                </p>
+            </div>
+            <div class="foot2">
+                <div class="popular">
+                    <h4>POPULAR CATEGORIES</h4>
+                    <p>Fashion</p>
+                    <p>Eectronic</p>
+                    <p>Cosemetic</p>
+                    <p>Health</p>
+                    <p>Watches</p>
 
                 </div>
-                <div class="right-aside">
-                    <h4>Trending</h4>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
+                <div class="pro">
+                    <h4>PRODUCTS</h4>
+
+                    <p>Prices Drop</p>
+                    <p>New Products</p>
+                    <p>Best Sales</p>
+                    <p>Contact Us</p>
+                    <p>Sitemap</p>
 
                 </div>
-
-                <div class="right-aside">
-                    <h4>Top</h4>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-                    <div class="item1">
-                        <img src="./images/clothes-1.jpg">
-                        <div>
-                            <h5>Relaxed Short Full Slee...</h5>
-                            <p><span class="cloth">Sports</span></p>
-                            <p><span class="pink">$45.00</span><span class="line-through">$12.00</span></p>
-                        </div>
-                    </div>
-
+                <div class="company">
+                    <h4>OUR COMPANY</h4>
+                    <p>Delivery</p>
+                    <p>Legal Notice</p>
+                    <p>Terms And Condition</p>
+                    <p>About Us</p>
+                    <p>Secure Payment</p>
+                </div>
+                <div class="serv">
+                    <h4>SERVICES</h4>
+                    <p>Prices Drop</p>
+                    <p>New Products</p>
+                    <p>Best Sales</p>
+                    <p>Contact Us</p>
+                    <p>Sitemap</p>
                 </div>
             </div>
-            </div>
 
-            </aside>
-        </main>
+            <div class="foot3">
+                <div class="cards">
+                    <img src="./images/payment.png">
+                </div>
+                <div class="text">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+                    AirCommerce All Right Reseved</div>
+            </div>
+        </div>
+
+    </footer>
+
+
 </body>
 
 </html>
