@@ -30,6 +30,10 @@ img:hover {
 }
 :root {
     --pink-color: rgb(238, 122, 141);
+
+}
+ .fa:hover{
+    color: var(--pink-color);
 }
 
 /* ----------------------------------------------------------HEADER-1-------------------------------------------------------------------------------------------*/
@@ -48,7 +52,7 @@ img:hover {
     font-size: 1.3em;
     margin-left: 5px;
 }
-.header1 .links:hover{
+.header1 .links i:hover{
     color: var(--pink-color);
 }
 .header1 select {
@@ -63,25 +67,29 @@ img:hover {
     padding: 1em;
 
 }
-.header2 .search input {
-    padding: 5px 70px;
+.header2 .search-bar{
     position: relative;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    font-size: 0.7rem;
 }
-
-.header2 .search fa {
+.header2 .search-bar i{
     position: absolute;
+    right: 1%;
+    top: 5px
+}
+.header2 input{
+    padding: 2px 0px;
+    padding-right:90px;
 }
 
 .header2 .logo {
     font-size: 2.2rem;
     font-weight: bold;
     color:var(--pink-color);
+    cursor: pointer;
 }
 
-
+.header2 .logo:hover{
+    color: black;
+}
 .cart i {
     padding: 5px;
     color: black;
@@ -111,9 +119,12 @@ img:hover {
     font-size: 01rem;
     font-weight: bold;
     padding: 1.4em;
+    cursor: pointer;
 
 }
-
+.list-of-products p:hover{
+    color: var(--pink-color);
+}
 
 /*******************************************************BANNER-1 Starts Here*******************************************************************/
 .banner1 {
@@ -155,52 +166,35 @@ img:hover {
 /*-----------------------------------------------------------------------CATEGORIES BOXES------------------------------------------------------------------------------*/
 .options{
     width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+   justify-content: space-around;
 }
 .options .box {
-    display: flex;
     border: 1px solid lightgray;
+    justify-content: left;
     border-radius: 3%;
-    width: 20%;
+    width: 80%;
     font-size: 0.8rem;
     padding: 0.3em;
     box-shadow: 0.5px 0.5px 0;
-    margin: 1rem 0;
-    /* margin-left: 0.6em; */
+    margin: 1rem 1rem;
 }
-
 .box:hover {
     box-shadow: 1px 1px 4px 0;
 }
 
 .box img {
-    width: 15%;
-    /* border: 1px solid red; */
+    width: 20%;
     border-radius: 5%;
     background-color: rgb(230, 227, 227);
 }
-
-.detail {
-    margin-left: 0.4em;
+.box .show-all{
+    color: var(--pink-color);
 }
 
-.detail .count {
-    margin-left: 7em;
-    font-size: 0.6rem;
-}
-
-.detail .show-all {
-    color:var(--pink-color);
-    /* margin-top:15em; */
-
-}
 
 /*----------------------------------------------------------------------Aside box--------------------------------------------------------------------------*/
 .big-container {
-    /* display: flex; */
     align-items: flex-start;
-    /* justify-content: space-between; */
 }
 
 /*-------------------------------------------------------------First-aside contaiiner----------------------------------------------------------------------*/
@@ -213,12 +207,12 @@ img:hover {
 .first-aside {
     justify-content: start;
     border-radius: 1%;
-    width: 100%;
+    width: 80%;
     padding: 0.5em;
 }
 
 .first-aside img {
-    width: 15%;
+    width: 25%;
     border: 1px solid lightgray;
     padding: 7px;
     margin-right: 10px;
@@ -243,7 +237,7 @@ img:hover {
 }
 /*-----------------------------------------------Second-aside container----------------------------------------------------------------------------------------*/
 .second-aside {
-    width: 100%;
+    width: 80%;
     margin-top: 1rem;
 }
 
@@ -262,7 +256,7 @@ img:hover {
 
 .best-seller-product-description {
     margin-bottom: 1em;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .best-seller-product i {
@@ -333,45 +327,36 @@ img:hover {
 .deal {
     align-items: center;
     border-bottom: 1px solid lightgray;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 0;
+    margin-left: 10px;
+
 }
 
 .oldspice {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    margin-left: 15px;
+    justify-content: space-evenly;
+    width: 95%;
     padding: 20px;
     border: 2px solid lightgray;
     border-radius: 5px;
 }
 
 .oldspice img {
-    width: 50%;
+    width: 100%;
 }
 
 .oldspice img:hover {
     box-shadow: none;
 }
 
-.golden {
-    color: goldenrod;
-}
-
-.white-star {
-    color: silver
-}
-
 .star h3 {
     color: black;
 }
-
-.star p {
-    color: gray;
-    text-align: justify;
-    font-size: 12px;
-    margin-bottom: 10px;
+.star i{
+    color: goldenrod;
 }
+
 
 .star .small {
     font-weight: bold;
@@ -379,6 +364,7 @@ img:hover {
 
 .line-through {
     text-decoration: line-through;
+    margin-left: 5px;
 }
 
 button {
@@ -415,6 +401,8 @@ button:hover {
 .time {
     display: flex;
     margin-top: 10px;
+    justify-content: space-around;
+    text-align: center;
 
 }
 
@@ -423,8 +411,7 @@ button:hover {
     background-color: lightgray;
     color: black;
     border-radius: 6px;
-    padding: 0.4em;
-    margin-left: 10px;
+    padding: 0.3em;
 
 }
 
@@ -433,8 +420,7 @@ button:hover {
     background-color: lightgray;
     color: black;
     border-radius: 6px;
-    padding: 0.1em;
-    margin-left: 10px;
+    padding:  0.2em 0;
 }
 
 .min {
@@ -442,8 +428,8 @@ button:hover {
     background-color: lightgray;
     color: black;
     border-radius: 6px;
-    padding: 0.5em;
-    margin-left: 10px;
+    padding: 0.2em 0.4em;
+    /* margin-left: 10px; */
 }
 
 .sec {
@@ -451,8 +437,8 @@ button:hover {
     background-color: lightgray;
     color: black;
     border-radius: 6px;
-    padding: 0.5em;
-    margin-left: 10px;
+    padding: 0.2em 0.4em;
+    /* margin-left: 10px; */
 
 }
 
@@ -463,7 +449,7 @@ button:hover {
     font-size: 1rem;
     font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .new_pro_list {
@@ -497,13 +483,14 @@ button:hover {
     width: 100%;
 }
 
-.new_pro_list1 .fa-solid .fa-regular {
+.new_pro_list1 i {
     color: goldenrod;
 }
 
 .new_pro_list1 .jack {
     color: var(--pink-color);
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 /*-------------------------------------Testimonial & Services*/
@@ -522,17 +509,19 @@ button:hover {
 
 .testimonial h4 {
     border-bottom: 1px solid lightgray;
+    text-align: center;
 
 }
 
 .testimonial p {
     width: 100px;
-    text-align: center;
+
 }
 
 .alan {
     border: 1px solid lightgray;
     text-align: center;
+    flex-direction: column;
     padding: 20px;
     margin-top: 2em;
 }
@@ -543,46 +532,42 @@ button:hover {
 
 .alan .fa-quote-left {
     color:var(--pink-color);
+    text-align: center;
 }
 
 /*---------------------------------------------------------Banner-2---------------------------------------------------------------------------*/
 .banner2 {
-    background-image: url(./images/cta-banner.jpg);
+    background-image: url(images/cta-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 54%;
     background-position: center;
     border-radius: 1%;
-    margin: 0 1em;
+    margin: 0% 2%;
+    width: 60%;
+ 
 }
 
-.discount {
+.banner2 .discount {
+    text-align: center;
     border: 1px solid white;
     background-color: white;
-    margin-top: 18%;
-    width: 30%;
-    margin-left: 33%;
-    opacity: 0.6;
-    text-align: center;
+    opacity: 0.7; 
+    margin-left: 40%;
+    color: gray;
+
 }
 
-.discount button {
-    background-color: black;
-}
-
-.discount h2 {
+.banner2 .discount h2 {
     color: black;
 }
-
-.discount h6 p {
-    color: grey;
-    margin-top: 10px;
+.discount button {
+    background-color: black;
+    color:white;
 }
-
-.delivery .fa {
-    color:var(--pink-color);
+.discount button:hover{
+    color: var(--pink-color);
 }
-
+/*-------------------------------------------------------Our Service------------------------------------------------------------------*/
 .service {
     color: gray;
     width: 20%;
@@ -599,8 +584,8 @@ button:hover {
     margin-Left: 0.5em;
     padding: 2em;
     text-align: center;
-}
-
+} 
+/*---------------------------------------------------------------------------BLOG STARTS HERE--------------------------------------------------------------------*/
 .blog {
     margin-top: 4em;
     width: 100%;
@@ -679,8 +664,8 @@ button:hover {
     .header2 {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
     }
+
 
     .sticky-container {
         display: none;
@@ -689,7 +674,6 @@ button:hover {
     .options {
         flex-wrap: wrap;
     }
-
     .right-aside-container {
         flex-wrap: wrap;
     }
@@ -710,9 +694,7 @@ button:hover {
         width: 100%;
     }
 
-    .banner-2 {
-        width: 100%;
-    }
+    
 
     .service {
         width: 100%;
@@ -721,9 +703,17 @@ button:hover {
     .blog {
         flex-direction: column;
     }
-
+.blog1{
+    margin-bottom: 20px;
+}
     .foot2 {
         flex-direction: column;
+    }
+    .pro{
+        padding: 10px 0;
+    }
+    .serv{
+        padding: 10px 0;
     }
 }
 
@@ -753,7 +743,9 @@ button:hover {
     .options {
         flex-wrap: wrap;
     }
-
+/* .right-aside-container{
+    flex-wrap: wrap;
+} */
     .new_pro_list {
         grid-template-columns: auto auto;
     }
@@ -764,4 +756,5 @@ button:hover {
     .blog1{
         min-width: 50%;
     }
+    
 }
