@@ -585,6 +585,9 @@ button:hover {
     padding: 2em;
     text-align: center;
 } 
+.delivery i{
+    color: var(--pink-color);
+}
 /*---------------------------------------------------------------------------BLOG STARTS HERE--------------------------------------------------------------------*/
 .blog {
     margin-top: 4em;
