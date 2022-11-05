@@ -76,8 +76,10 @@ img:hover {
     top: 5px
 }
 .header2 input{
-    padding: 2px 0px;
-    padding-right:90px;
+    padding: 4px 4px;
+    padding-right:100px;
+    border: 2px soild black;
+
 }
 
 .header2 .logo {
@@ -569,8 +571,9 @@ button:hover {
 }
 /*-------------------------------------------------------Our Service------------------------------------------------------------------*/
 .service {
-    color: gray;
+    color: black;
     width: 20%;
+    text-align: center;
 }
 
 .service h4 {
@@ -697,7 +700,10 @@ button:hover {
         width: 100%;
     }
 
-    
+    .banner2{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
 
     .service {
         width: 100%;
@@ -746,9 +752,6 @@ button:hover {
     .options {
         flex-wrap: wrap;
     }
-/* .right-aside-container{
-    flex-wrap: wrap;
-} */
     .new_pro_list {
         grid-template-columns: auto auto;
     }
@@ -759,5 +762,5 @@ button:hover {
     .blog1{
         min-width: 50%;
     }
+    }
     
-}
