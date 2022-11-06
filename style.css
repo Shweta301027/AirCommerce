@@ -283,6 +283,7 @@ button {
     position: sticky;
     left: 0;
     top: 0;
+    height: min-content;
 }
 .sticky-container img:hover{
     box-shadow: 1px 1px 4px 0
@@ -721,7 +722,7 @@ button:hover {
 
     .banner2{
         min-width: 100%;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
 
     .service {
@@ -789,6 +790,7 @@ button:hover {
         width: 40%;
         /* flex-wrap: wrap; */
     }
+
     .blog {
         overflow: auto;
     }
